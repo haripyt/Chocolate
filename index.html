@@ -282,7 +282,7 @@
                     <!-- <div class="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 icon-header-noti js-show-cart" data-notify="1">
                      <a href="product.html" style="color:black;" >  <i class="zmdi zmdi-shopping-cart"></i></a>
                     </div> -->
-                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="1">
                     <i class="zmdi zmdi-shopping-cart"></i>
                 </div>
                 </div>
@@ -345,60 +345,116 @@ Your Cart
                 </div>
             </div>
             <div class="header-cart-content flex-w js-pscroll">
-                <ul class="header-cart-wrapitem w-full">
-                    <li class="header-cart-item flex-w flex-t m-b-12">
-                        <div class="header-cart-item-img">
+              
+                
+                <div class="container py-5" >
+        <div class="row" >
+            <div class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded" >
+                <h2 class="text-center fw-bold mb-3">Checkout</h2>
+                <form name="google-sheet">
+                    
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your Name" required>
+                    </div>
+                    
+                    <div class="form-group mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="Number" id="phone" name="phone" class="form-control" placeholder="Enter your Phone Number" required>
+                    </div>
+                    <!-- <div class="form-group mb-3">
+                        <label for="message" class="form-label">Department</label>
+                        <input id="Department" name="message" class="form-control" placeholder="Enter your Department" rows="5" required></input>
+                    </div> -->
+                    <div class="form-group mb-3">
+                        <label for="phone" class="form-label">Chocolate Bars(₹50):</label><br>
+                        <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
                             <img src="product/new/product2.jpg" alt="IMG">
-                        </div>
-                        <div class="header-cart-item-txt p-t-8">
-                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-DARK
-</a>
-                            <span class="header-cart-item-info">
-2 x ₹50 = ₹100
-</span>
-                        </div>
-                    </li>
-                    <li class="header-cart-item flex-w flex-t m-b-12">
-                        <div class="header-cart-item-img">
+                        <div style="margin-left:70px;margin-top:-40px;">Dark <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product4.jpg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Mawa <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product6.jpg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Rose  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product8.jpg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Rasamalai  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
                             <img src="product/new/product10.jpg" alt="IMG">
-                        </div>
-                        <div class="header-cart-item-txt p-t-8">
-                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-Rose Pistachio
-</a>
-                            <span class="header-cart-item-info">
-1 x ₹50 = ₹50
-</span>
-                        </div>
-                    </li>
-                    <li class="header-cart-item flex-w flex-t m-b-12">
-                        <div class="header-cart-item-img">
+                        <div style="margin-left:70px;margin-top:-40px;">RosePistachio  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product12.jpg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Chocochocki  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br>
+
+
+
+
+                         <label for="phone" class="form-label">Chocolate Pouch(₹35):</label><br>
+                        <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product1.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Dark <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product3.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Mawa <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product5.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Rose  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product7.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Rasamalai  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product9.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">RosePistachio  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div> </input></div><br><br><br>
+
+                         <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
+                            <img src="product/new/product11.jpeg" alt="IMG">
+                        <div style="margin-left:70px;margin-top:-40px;">Chocochocki  <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br><br><br>
+                        
+                        <input type=checkbox  name="message" value='adzap' > <div class="header-cart-item-img" style="margin-left:30px;margin-top:-40px ;">
                             <img src="product/new/product13.jpeg" alt="IMG">
-                        </div>
-                        <div class="header-cart-item-txt p-t-8">
-                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
-Combo-Pouch
-</a>
-                            <span class="header-cart-item-info">
-1 x ₹45 = ₹45
-</span>
-                        </div>
-                    </li>
-                </ul>
-                <div class="w-full">
-                    <div class="header-cart-total w-full p-tb-40">
-                        Total: ₹195.00
+                        <div style="margin-left:70px;margin-top:-40px;">Combo(₹45) <select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </div> </input></div><br>
+                     
+
+                       
+
                     </div>
-                    <div class="header-cart-buttons flex-w w-full">
-                        <a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
-View Cart
-</a>
-                        <a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
-Check Out
-</a>
+                    <div>
+                        <button  class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10" type="submit">Checkout</button>
                     </div>
-                </div>
+             </form><br>
+                <div id="form_alerts">
+                        
+                    </div>
+            </div>
+         </div><br>
+                 
+ 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby-HKWWxeRXl0d8t4J3MeJeNpcWh2sXMZcYm5Sezoswv_DLyAtK-nrkKR2UebrHUP6H/exec'
+        const form = document.forms['google-sheet']
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => $("#form_alerts").html("<div class='alert alert-success'>Check Out Successful,We shortly contact You .</div>"))
+            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Online Store Closed...We let You Know shortly,As soon as we are available .</div>"))
+        })
+    </script>
+
             </div>
         </div>
     </div>
